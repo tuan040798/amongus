@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".tips5">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true"
+        android:paddingBottom="55dp">
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:stretchColumns="1">
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="135dp"
+                android:src="@mipmap/imgtips"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="20dp"
+                android:text="Winning Is Easy"
+                android:textColor="#000000"
+                android:textStyle="bold"
+                android:textSize="24dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="20dp"
+                android:textColor="#000000"
+                android:text="All it takes to win as a Crewmate in Among Us is a bit of coordination. This is quite hard to achieve when you’re playing on the mobile version, since communication is only possible throughout discussions. To make things easier, convince everyone to go around in a big group or two smaller ones. If you stay together, spotting erratic behavior in others becomes much easier than if you’re spread thinly across the map. Ideally, nobody except for the Impostor should want to get away from the group, since he or she is the only one among you who has a different interest at heart. Throughout discussions, it makes more sense to play Among Us on PC with BlueStacks, as it gives you the opportunity to write to your team faster and communicate seamlessly. That’s it! These are the most important things to keep in mind when playing Among Us as member of the Crew. We told you the game is deceptively simple, yet, as you will see for yourself, it’s also insanely fun."
+                android:textSize="18dp"/>
+        </TableLayout>
+    </ScrollView>
+    <RelativeLayout
+        android:layout_centerInParent="true"
+        android:id="@+id/adMobView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"/>
+</RelativeLayout>

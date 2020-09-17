@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".tips3">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true"
+        android:paddingBottom="55dp">
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:stretchColumns="1">
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="135dp"
+                android:src="@mipmap/imgtips"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="20dp"
+                android:text="Learn the Vent System"
+                android:textColor="#000000"
+                android:textStyle="bold"
+                android:textSize="24dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="20dp"
+                android:textColor="#000000"
+                android:text="This goes for both Crew and Impostors. If you really pay attention while playing, you’ll see that most rooms have a vent opening. These are like shortcuts in-between the rooms with the twist that only Impostors can use them. If you see someone behind you one second and then in front of you soon after that, it’s likely that they’re getting around using the vents. Innocent people will never go near these and neither should you."
+                android:textSize="18dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="20dp"
+                android:text="Suspicious Behavior"
+                android:textColor="#000000"
+                android:textStyle="bold"
+                android:textSize="24dp" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="20dp"
+                android:textColor="#000000"
+                android:text="Since this is a social game, the most useful thing you can learn is how to read other players’ behavior. As a rule, Impostors will try to divert attention away from themselves, although some have become skilled enough to do this inconspicuously. Suspicious behavior includes conversational tactics as much as it does erratic movements around the map. For example, Impostors will constantly run away from or around sabotaged areas, rather than straight to them. Another definitive tell-tale is when they try to Swipe their card in an effort to blend in. The task doesn’t always feature, so inexperienced Impostors are likely to give themselves away with this one."
+                android:textSize="18dp"/>
+        </TableLayout>
+    </ScrollView>
+    <RelativeLayout
+        android:layout_centerInParent="true"
+        android:id="@+id/adMobView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"/>
+</RelativeLayout>

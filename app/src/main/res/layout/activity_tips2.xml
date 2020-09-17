@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".tips2">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true"
+        android:paddingBottom="55dp">
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:stretchColumns="1">
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="135dp"
+                android:src="@mipmap/imgtips"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="20dp"
+                android:text="What is the AmongUs"
+                android:textColor="#000000"
+                android:textStyle="bold"
+                android:textSize="24dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="20dp"
+                android:textColor="#000000"
+                android:text="Since there’s just one Impostor every time around, you’re most likely going to be a Crewmate whenever a game begins. As such, if you want to be successful, you must first learn how to work well with other Crew members. Your primary objective is to complete the tasks before the Impostor kills you alongside everyone else. On a secondary note, you have to find the evidence that may indicate whether someone is an Impostor and then convince everybody else to vote them out. The tasks will vary from swiping your card in the Administrator panel to re-fueling the ship, and even shooting down incoming asteroids. The fun part is that there are a variety of tasks which the host is able to calibrate and they will affect your in-game experience. According to how long it takes to complete them, tasks are either short, common, or long. You have two abilities as a Crewmate, namely “Use” and “Report.” The first is necessary to interact with everything within the game, while the second becomes active whenever you encounter a dead body. Essentially, the report function makes it possible to immediately oust a killer if they’re caught in the act or as a way to notify everyone else that something terrible has happened If the host allows it, the “use” ability can activate your emergency meeting (each player gets exactly one), which will pause the game for a discussion and vote. You want to save this for when you’re absolutely sure that you’re in danger of being killed or for when you caught the killer in the act. As much as we’d want to be able to defend ourselves against the Impostor, there is no other way to do so but convince everyone else to vote them out. Never go off on your own. Aside from exposing yourself to an easy kill that will end your fun prematurely, you’re also risking arousing the suspicion of other people. If there’s nobody to blame or the Impostor is particularly sneaky, you’ll easily be voted off for lone wolf behavior. Learn the Vent System."
+                android:textSize="18dp"
+                tools:ignore="HardcodedText" />
+        </TableLayout>
+    </ScrollView>
+    <RelativeLayout
+        android:layout_centerInParent="true"
+        android:id="@+id/adMobView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"/>
+</RelativeLayout>

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".tips4">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true"
+        android:paddingBottom="55dp">
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:stretchColumns="1">
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="135dp"
+                android:src="@mipmap/imgtips"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="20dp"
+                android:text="Don’t Abuse the Emergency Meeting"
+                android:textColor="#000000"
+                android:textStyle="bold"
+                android:textSize="24dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="20dp"
+                android:textColor="#000000"
+                android:text="If there’s one thing other players hate, it’s people abusing the EM function without good cause. You only get one shot at this, so keep it for a moment when you believe you might be in danger or you know for sure that you’ve found the Impostor."
+                android:textSize="18dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="20dp"
+                android:text="Do-Task-Win"
+                android:textColor="#000000"
+                android:textStyle="bold"
+                android:textSize="24dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="20dp"
+                android:textColor="#000000"
+                android:text="Last, but certainly not least, don’t be a slacker. Nobody likes a troll, nor people who go around aimlessly. It only makes the game more difficult for those who are invested in the match. If you don’t want to play, don’t get in a game."
+                android:textSize="18dp"/>
+        </TableLayout>
+    </ScrollView>
+    <RelativeLayout
+        android:layout_centerInParent="true"
+        android:id="@+id/adMobView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"/>
+</RelativeLayout>

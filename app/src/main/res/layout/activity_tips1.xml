@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".tips1">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true"
+        android:paddingBottom="55dp">
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:stretchColumns="1">
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="120dp"
+
+                android:src="@mipmap/imgtips"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="20dp"
+                android:text="Chapter 1 - Tips 1"
+                android:textColor="#000000"
+                android:textStyle="bold"
+                android:textSize="24dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="20dp"
+                android:textColor="#000000"
+                android:text="This time around, we’d like to explore the idea of becoming the perfect Crewmate. At a very basic level, winning is as simple as “DoTaskWin,” which, incidentally, is also one of the more famous player names within the community. We couldn’t have put it any better, Mr. DoTask. However, since the only way to get someone out is to have a majority of votes, there is an added, social dynamic to take into account. As you shall see, this complicates things endlessly (to some players’ despair and others’ delight)."
+                android:textSize="18dp"/>
+        </TableLayout>
+    </ScrollView>
+    <RelativeLayout
+        android:layout_centerInParent="true"
+        android:id="@+id/adMobView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"/>
+</RelativeLayout>

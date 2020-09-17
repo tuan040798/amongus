@@ -1,0 +1,2 @@
+rootProject.name='amongUstipguide'
+include ':app', ':nativetemplates'

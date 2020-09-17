@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@mipmap/bgmain"
+    tools:context=".list_tips">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="60dp"
+        android:fillViewport="true">
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:stretchColumns="1">
+            <LinearLayout
+                android:id="@+id/us1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:paddingTop="25dp">
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@mipmap/us1" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/us2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:paddingTop="25dp">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@mipmap/us2" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/us3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:paddingTop="25dp">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@mipmap/us3" />
+            </LinearLayout>
+            <LinearLayout
+                android:id="@+id/native_ad2"
+                android:layout_width="match_parent"
+                android:padding="20dp"
+                android:visibility="gone"
+                android:layout_height="wrap_content">
+                <com.google.android.ads.nativetemplates.TemplateView
+                    android:layout_gravity="center"
+                    app:gnt_template_type="@layout/gnt_small_template_view"
+                    android:layout_width="match_parent"
+                    android:id="@+id/my_template2"
+                    tools:ignore="MissingConstraints"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+            <LinearLayout
+                android:id="@+id/us4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:paddingTop="25dp">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@mipmap/us4" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/us5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:paddingTop="25dp">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@mipmap/us5" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/us6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:paddingBottom="50dp"
+                android:paddingTop="25dp">
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@mipmap/us6" />
+            </LinearLayout>
+
+        </TableLayout>
+    </ScrollView>
+    <RelativeLayout
+        android:orientation="vertical"
+        android:id="@+id/adMobView"
+        android:layout_width="match_parent"
+        android:gravity="center"
+        android:layout_alignParentBottom="true"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true" />
+</RelativeLayout>
